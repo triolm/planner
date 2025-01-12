@@ -59,12 +59,12 @@ function App() {
     <div className='d-flex flex-column' style={{ height: "100vh" }} >
       <Navigation />
       {/* {JSON.stringify(courses)} */}
-      {/* <div className='col-md-8 offset-md-2 m-3 mx-md-auto'>
+      <div className='col-md-8 offset-md-2 m-3 mx-md-auto'>
 
         {addingCourse && <CourseForm addCourse={addCourse} setAddingCourse={setAddingCourse} />}
         {editingSemesters && <EditSemesters semesters={semesters} setSemesters={setSemesters} setEditingSemesters={setEditingSemesters} />}
 
-      </div> */}
+      </div>
       {/* <Button onClick={() => setAddingCourse(true)}>Add Course</Button> */}
       {/* <Button onClick={() => setEditingSemesters(true)}>Edit Semesters</Button> */}
       <div style={{ flexGrow: 1, overflow: "hidden" }} >
