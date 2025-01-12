@@ -1,0 +1,28 @@
+.course:hover .garbage {
+  visibility: 1;
+  pointer-events: all;
+  visibility: visible;
+  transition: visibility 0s 0s ease-in;
+}
+
+.course .garbage {
+  visibility: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.course:hover{
+  background-color: #00000009;
+
+}
+
+
+html, body{
+  overflow:hidden;
+  background-color:#00000009
+}
+
+nav .container{
+  margin: 0!important;
+}
+
